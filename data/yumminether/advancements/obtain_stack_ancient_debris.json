@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ancient_debris"
+    },
+    "title": "Древний",
+    "description": "Соберите стак древних обломков",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/obtain_ancient_debris",
+  "criteria": {
+  	"zombie_head": {
+  		"trigger": "minecraft:inventory_changed",
+  		"conditions": {
+  			"items": [
+  				{
+  					"items":[
+  						"minecraft:ancient_debris"
+  					],
+  					"count": 64
+  				}
+  			]
+  		}
+  	}
+    
+  }
+}
+
+    
+    
