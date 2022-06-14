@@ -1,25 +1,24 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:melon"
+      "item": "minecraft:glow_ink_sac"
     },
-    "title": "Сезон арбузов",
-    "description": "Соберите стак арбузов",
+    "title": "Святые чернила!?",
+    "description": "Получите светящийся чернильный мешок",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "yummihusbandry:stack_of_pumpkin",
+  "parent": "yummihusbandry:ink_sac",
   "criteria": {
-  	"melon": {
+  	"glow_ink_sac": {
   		"trigger": "minecraft:inventory_changed",
   		"conditions": {
   			"items": [
   				{
   					"items":[
-  						"minecraft:melon"
-  					],
-  					"count": 64
+  						"minecraft:glow_ink_sac"
+  					]
   				}
   			]
   		}

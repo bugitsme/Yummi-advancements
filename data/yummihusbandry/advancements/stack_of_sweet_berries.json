@@ -5,12 +5,11 @@
     },
     "title": "Лакомство для лисицы",
     "description": "Соберите стак сладких ягод",
-    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "yummihusbandry:stack_of_melon",
+  "parent": "yummihusbandry:stack_of_beetroot",
   "criteria": {
   	"sweet_berries": {
   		"trigger": "minecraft:inventory_changed",

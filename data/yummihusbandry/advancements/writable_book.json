@@ -1,25 +1,24 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:melon"
+      "item": "minecraft:writable_book"
     },
-    "title": "Сезон арбузов",
-    "description": "Соберите стак арбузов",
+    "title": "Писатель?",
+    "description": "Объедините чернила, перо и книгу",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "yummihusbandry:stack_of_pumpkin",
+  "parent": "yummihusbandry:ink_sac",
   "criteria": {
-  	"melon": {
+  	"writable_book": {
   		"trigger": "minecraft:inventory_changed",
   		"conditions": {
   			"items": [
   				{
   					"items":[
-  						"minecraft:melon"
-  					],
-  					"count": 64
+  						"minecraft:writable_book"
+  					]
   				}
   			]
   		}

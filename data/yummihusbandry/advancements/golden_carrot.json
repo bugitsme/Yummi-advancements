@@ -1,25 +1,25 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:golden_carrot"
     },
-    "title": "Фекла-свекольница",
-    "description": "Соберите стак свеклы",
+    "title": "Позолоченная морковь",
+    "description": "Найдите способ озолотить морковь",
+    "frame": "goal",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
   "parent": "yummihusbandry:stack_of_carrot",
   "criteria": {
-  	"beetroot": {
+  	"golden_carrot": {
   		"trigger": "minecraft:inventory_changed",
   		"conditions": {
   			"items": [
   				{
   					"items":[
-  						"minecraft:beetroot"
-  					],
-  					"count": 64
+  						"minecraft:golden_carrot"
+  					]
   				}
   			]
   		}

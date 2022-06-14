@@ -1,25 +1,24 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:melon"
+      "item": "minecraft:beetroot_soup"
     },
-    "title": "Сезон арбузов",
-    "description": "Соберите стак арбузов",
+    "title": "Суп'ер человек",
+    "description": "Сварите свекольный суп",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "yummihusbandry:stack_of_pumpkin",
+  "parent": "yummihusbandry:stack_of_beetroot",
   "criteria": {
-  	"melon": {
+  	"beetroot_soup": {
   		"trigger": "minecraft:inventory_changed",
   		"conditions": {
   			"items": [
   				{
   					"items":[
-  						"minecraft:melon"
-  					],
-  					"count": 64
+  						"minecraft:beetroot_soup"
+  					]
   				}
   			]
   		}

@@ -1,25 +1,24 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:melon"
+      "item": "minecraft:ink_sac"
     },
-    "title": "Сезон арбузов",
-    "description": "Соберите стак арбузов",
+    "title": "Чернильница",
+    "description": "Получите чернильный мешок из спрута",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "yummihusbandry:stack_of_pumpkin",
+  "parent": "minecraft:husbandry/fishy_business",
   "criteria": {
-  	"melon": {
+  	"ink_sac": {
   		"trigger": "minecraft:inventory_changed",
   		"conditions": {
   			"items": [
   				{
   					"items":[
-  						"minecraft:melon"
-  					],
-  					"count": 64
+  						"minecraft:ink_sac"
+  					]
   				}
   			]
   		}
