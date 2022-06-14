@@ -1,24 +1,24 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:ancient_debris"
+      "item": "minecraft:glow_berries"
     },
-    "title": "Древний",
-    "description": "Соберите стак древних обломков",
+    "title": "Святые ягоды?",
+    "description": "Соберите стак светящихся ягод",
     "frame": "goal",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "minecraft:nether/obtain_ancient_debris",
+  "parent": "yummihusbandry:stack_of_sweet_berries",
   "criteria": {
-  	"ancient_debris": {
+  	"glow_berries": {
   		"trigger": "minecraft:inventory_changed",
   		"conditions": {
   			"items": [
   				{
   					"items":[
-  						"minecraft:ancient_debris"
+  						"minecraft:glow_berries"
   					],
   					"count": 64
   				}

@@ -1,24 +1,24 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:ancient_debris"
+      "item": "minecraft:sweet_berries"
     },
-    "title": "Древний",
-    "description": "Соберите стак древних обломков",
+    "title": "Лакомство для лисицы",
+    "description": "Соберите стак сладких ягод",
     "frame": "goal",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "minecraft:nether/obtain_ancient_debris",
+  "parent": "yummihusbandry:stack_of_melon",
   "criteria": {
-  	"ancient_debris": {
+  	"sweet_berries": {
   		"trigger": "minecraft:inventory_changed",
   		"conditions": {
   			"items": [
   				{
   					"items":[
-  						"minecraft:ancient_debris"
+  						"minecraft:sweet_berries"
   					],
   					"count": 64
   				}

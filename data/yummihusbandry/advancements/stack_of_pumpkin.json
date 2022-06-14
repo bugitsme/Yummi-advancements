@@ -1,24 +1,24 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:ancient_debris"
+      "item": "minecraft:pumpkin"
     },
-    "title": "Древний",
-    "description": "Соберите стак древних обломков",
+    "title": "Подготовка к хэллоуину",
+    "description": "Соберите стак тыквы",
     "frame": "goal",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "minecraft:nether/obtain_ancient_debris",
+  "parent": "yummihusbandry:stack_of_beetroot",
   "criteria": {
-  	"ancient_debris": {
+  	"pumpkin": {
   		"trigger": "minecraft:inventory_changed",
   		"conditions": {
   			"items": [
   				{
   					"items":[
-  						"minecraft:ancient_debris"
+  						"minecraft:pumpkin"
   					],
   					"count": 64
   				}

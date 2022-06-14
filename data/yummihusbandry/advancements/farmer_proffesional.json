@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:farmland"
+    },
+    "title": "Фермер Профессионал",
+    "description": "Соберите стак каждой из съедобных культур",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/obtain_netherite_hoe",
+  "criteria": {
+    "advancements_completed": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player":  {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "yummihusbandry:stack_of_hay": "true",
+              "yummihusbandry:stack_of_potato": "true",
+              "yummihusbandry:stack_of_pumpkin": "true",
+              "yummihusbandry:stack_of_melon": "true",
+              "yummihusbandry:stack_of_glow_berries": "true",
+              "yummihusbandry:stack_of_sweet_berries": "true",
+              "yummihusbandry:stack_of_carrot": "true",
+              "yummihusbandry:stack_of_beetroot": "true",
+              "yummihusbandry:stack_of_hay": "true"
+            }
+          }
+        }
+      }
+    }
+    
+  }
+}
+
+    

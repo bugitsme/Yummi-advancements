@@ -12,7 +12,7 @@
   },
   "parent": "yummichallenges:the_walking_dead",
   "criteria": {
-  	"zombie_head": {
+  	"skeleton_skull": {
   		"trigger": "minecraft:inventory_changed",
   		"conditions": {
   			"items": [

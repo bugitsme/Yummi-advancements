@@ -12,7 +12,7 @@
   },
   "parent": "yummichallenges:creeperosima_and_creeperosaki",
   "criteria": {
-  	"zombie_head": {
+  	"dragon_head": {
   		"trigger": "minecraft:inventory_changed",
   		"conditions": {
   			"items": [

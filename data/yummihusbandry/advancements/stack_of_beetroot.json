@@ -1,24 +1,24 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:beetroot"
     },
-    "title": "Криперосима и криперосаки",
-    "description": "Получите стак голов криперов",
-    "frame": "challenge",
+    "title": "Фекла-свекольница",
+    "description": "Соберите стак свеклы",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "yummichallenges:cemetery_riot",
+  "parent": "yummihusbandry:stack_of_carrot",
   "criteria": {
-  	"creeper_head": {
+  	"beetroot": {
   		"trigger": "minecraft:inventory_changed",
   		"conditions": {
   			"items": [
   				{
   					"items":[
-  						"minecraft:creeper_head"
+  						"minecraft:beetroot"
   					],
   					"count": 64
   				}
@@ -29,4 +29,5 @@
   }
 }
 
+    
     

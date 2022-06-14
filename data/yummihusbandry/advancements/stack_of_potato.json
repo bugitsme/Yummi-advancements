@@ -1,24 +1,24 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:ancient_debris"
+      "item": "minecraft:potato"
     },
-    "title": "Древний",
-    "description": "Соберите стак древних обломков",
+    "title": "Мешок картофеля",
+    "description": "Соберите стак картофеля",
     "frame": "goal",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "minecraft:nether/obtain_ancient_debris",
+  "parent": "yummihusbandry:stack_of_hay",
   "criteria": {
-  	"ancient_debris": {
+  	"potato": {
   		"trigger": "minecraft:inventory_changed",
   		"conditions": {
   			"items": [
   				{
   					"items":[
-  						"minecraft:ancient_debris"
+  						"minecraft:potato"
   					],
   					"count": 64
   				}
