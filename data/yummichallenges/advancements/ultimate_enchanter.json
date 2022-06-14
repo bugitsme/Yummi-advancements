@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "yummi:all_blocks",
+  "parent": "yummichallenges:all_blocks",
 
   "criteria": {
     "protection1": {

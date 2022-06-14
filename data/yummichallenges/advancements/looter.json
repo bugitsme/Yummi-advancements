@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "yummi:root",
+  "parent": "yummichallenges:root",
   "criteria": {
     "abandoned_mineshaft": {
       "trigger": "minecraft:player_generates_container_loot",

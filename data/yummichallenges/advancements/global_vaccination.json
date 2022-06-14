@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "yummi:root",
+  "parent": "yummichallenges:root",
 	"criteria": {
 		"farmer_plains": {
 			"trigger": "minecraft:cured_zombie_villager",

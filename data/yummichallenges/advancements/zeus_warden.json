@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "yummi:immortal",
+  "parent": "yummichallenges:immortal",
   "criteria": {
     "channel": {
       "trigger": "minecraft:channeled_lightning",

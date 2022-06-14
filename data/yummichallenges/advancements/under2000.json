@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:ender_pearl"
+      "item": "minecraft:structure_void"
     },
-    "title": "Орбитер",
-    "description": "Любым способом доберитесь до высоты 100 км",
+    "title": "Серьезно!?",
+    "description": "Опуститесь на самое дно",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "yummi:root",
+  "parent": "yummichallenges:under1000",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:location",
@@ -23,8 +23,8 @@
               "location": {
                 "position": {
                   "y": {
-                  	"min": 100000,
-                  	"max": 101000
+                    "min": -2100,
+                    "max": -1950
                   }
                 }
               }
@@ -48,3 +48,5 @@
     }
   }
 }
+
+    

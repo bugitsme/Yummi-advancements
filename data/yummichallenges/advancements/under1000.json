@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:structure_void"
+      "item": "minecraft:bedrock"
     },
-    "title": "Серьезно!?",
-    "description": "Опуститесь на самое дно",
+    "title": "Дитя пустоты",
+    "description": "Попробуйте спуститься на 1 км под бедрок",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "yummi:under1000",
+  "parent": "yummichallenges:root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:location",
@@ -23,8 +23,8 @@
               "location": {
                 "position": {
                   "y": {
-                    "min": -2100,
-                    "max": -1950
+                  	"min": -1100,
+                  	"max": -950
                   }
                 }
               }
@@ -48,5 +48,3 @@
     }
   }
 }
-
-    

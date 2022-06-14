@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "yummi:orbiter",
+  "parent": "yummichallenges:orbiter",
   "criteria": {
     
   }

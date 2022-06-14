@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:bedrock"
+      "item": "minecraft:ender_pearl"
     },
-    "title": "Дитя пустоты",
-    "description": "Попробуйте спуститься на 1 км под бедрок",
+    "title": "Орбитер",
+    "description": "Любым способом доберитесь до высоты 100 км",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "yummi:root",
+  "parent": "yummichallenges:root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:location",
@@ -23,8 +23,8 @@
               "location": {
                 "position": {
                   "y": {
-                  	"min": -1100,
-                  	"max": -950
+                  	"min": 100000,
+                  	"max": 101000
                   }
                 }
               }

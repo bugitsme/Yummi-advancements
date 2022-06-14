@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:dragon_head"
     },
-    "title": "Криперосима и криперосаки",
-    "description": "Получите стак голов криперов",
+    "title": "Конец эры драконов",
+    "description": "Получите стак голов дракона края",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "yummi:cemetery_riot",
+  "parent": "yummichallenges:creeperosima_and_creeperosaki",
   "criteria": {
   	"zombie_head": {
   		"trigger": "minecraft:inventory_changed",
@@ -18,7 +18,7 @@
   			"items": [
   				{
   					"items":[
-  						"minecraft:creeper_head"
+  						"minecraft:dragon_head"
   					],
   					"count": 64
   				}

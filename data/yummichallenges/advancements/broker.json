@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "yummi:global_vaccination",
+  "parent": "yummichallenges:global_vaccination",
   "criteria": {
     "farmer_plains": {
       "trigger": "minecraft:villager_trade",

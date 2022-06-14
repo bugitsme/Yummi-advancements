@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   }, 
-  "parent": "yummi:all_items",
+  "parent": "yummichallenges:all_items",
 
   "criteria": {
     "acacia_button": {

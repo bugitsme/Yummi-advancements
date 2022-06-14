@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "yummi:death_death",
+  "parent": "yummichallenges:death_death",
   "criteria": {
     "totem_inventory": {
       "trigger": "minecraft:inventory_changed",

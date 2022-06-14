@@ -1,16 +1,16 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:skeleton_skull"
+      "item": "minecraft:creeper_head"
     },
-    "title": "Бунт на кладбище",
-    "description": "Получите стак голов скелетов",
+    "title": "Криперосима и криперосаки",
+    "description": "Получите стак голов криперов",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "yummi:the_walking_dead",
+  "parent": "yummichallenges:cemetery_riot",
   "criteria": {
   	"zombie_head": {
   		"trigger": "minecraft:inventory_changed",
@@ -18,7 +18,7 @@
   			"items": [
   				{
   					"items":[
-  						"minecraft:skeleton_skull"
+  						"minecraft:creeper_head"
   					],
   					"count": 64
   				}

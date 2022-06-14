@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "yummi:looter",
+  "parent": "yummichallenges:looter",
   "criteria": {
     "pufferfish": {
       "trigger": "minecraft:entity_killed_player",

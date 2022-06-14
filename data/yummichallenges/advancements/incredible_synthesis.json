@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "yummi:root",
+  "parent": "yummichallenges:root",
   "criteria": {
     "channeled": {
         "trigger": "minecraft:channeled_lightning",
