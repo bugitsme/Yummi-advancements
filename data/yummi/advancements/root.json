@@ -1,0 +1,178 @@
+{
+	"display": {
+		"title": "Yummi Challenges",
+		"description": "Желаю удачи... хи-хи...",
+		"icon": {
+			"item": "minecraft:end_crystal"
+		},
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "minecraft:textures/block/bedrock.png"
+	},
+	"criteria": {
+		"killed_dragon": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "ender_dragon"
+				}
+			}
+		},
+		"enter_return_portal": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "overworld",
+				"from": "the_end"
+			}
+		},
+		"outer_pos_x": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"position": {
+									"dimension": "minecraft:the_end",
+									"x": {
+										"min": 750
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": "spectator"
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"outer_pos_z": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"position": {
+									"dimension": "minecraft:the_end",
+									"z": {
+										"min": 750
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": "spectator"
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"outer_neg_x": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"position": {
+									"dimension": "minecraft:the_end",
+									"x": {
+										"max": -750
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": "spectator"
+								}
+							}
+						}
+					}
+				]
+			}
+		},
+		"outer_neg_z": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"position": {
+									"dimension": "minecraft:the_end",
+									"z": {
+										"max": -750
+									}
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type_specific": {
+									"type": "player",
+									"gamemode": "spectator"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"killed_dragon",
+			"outer_neg_z",
+			"outer_neg_x",
+			"outer_pos_z",
+			"outer_pos_x",
+			"enter_return_portal"
+		]
+	]
+
+}

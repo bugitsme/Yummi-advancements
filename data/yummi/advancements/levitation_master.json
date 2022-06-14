@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:shulker_box"
+    },
+    "title": "Мастер левитации",
+    "description": "Используйте левитацию чтобы подняться на 256 блоков вверх",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "yummi:orbiter",
+  "criteria": {
+    "levitated": {
+        "trigger": "minecraft:levitation",
+        "conditions": {
+            "distance": {
+                "y": {
+                    "min": 256,
+                    "max": 280
+                }
+            }
+
+        }
+    }
+  }
+}
+
+    

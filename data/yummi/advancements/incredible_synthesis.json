@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:trident"
+    },
+    "title": "Невероятный синтез",
+    "description": "Трансформируйте одной молнией всевозможных мобов",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "yummi:root",
+  "criteria": {
+    "channeled": {
+        "trigger": "minecraft:channeled_lightning",
+        "conditions": {
+            "victims": [
+            	{
+            		"type": "minecraft:villager"
+            	},
+            	{
+            		"type": "minecraft:pig"
+            	},
+            	{
+            		"type": "minecraft:creeper"
+            	},
+            	{
+            		"type": "minecraft:mooshroom"
+            	}
+            	]
+        	}
+    	}
+	}
+}
+

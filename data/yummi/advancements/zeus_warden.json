@@ -1,0 +1,46 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sculk_shrieker"
+    },
+    "title": "Молнизератель",
+    "description": "Убить надзирателя молнией",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "yummi:immortal",
+  "criteria": {
+    "channel": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "type": "minecraft:warden"
+          }
+        ]
+      }
+    },
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:warden"
+        }
+      }
+    }
+  },
+  "requirements": [
+		[
+			"channel"
+    ],
+    [
+			"kill"
+  
+		]
+	]
+}
+
+
+    
